@@ -164,6 +164,7 @@ hr {
 .row {
   display: flex;
   gap: 150px;
+	padding-left:500px;
 }
 
 .sr-only {
