@@ -4,16 +4,6 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
-<head>
-    <style>
-        body {
-            background-color: 229, 224, 218;
-            margin: 0; /* Removes default whitespace borders */
-            padding: 0;
-        }
-    </style>
-</head>
-
 :root {
 	--accent: #2337ff;
 	--accent-dark: 15, 18, 25;
@@ -45,7 +35,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
+	background: 229, 224, 218;
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
