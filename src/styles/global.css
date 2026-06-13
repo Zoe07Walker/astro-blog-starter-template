@@ -157,14 +157,14 @@ hr {
 .media2 img {
   width: 600px;
 	height: 660px;
-	padding-left: 500px;
+	padding-left: 400px;
   flex-shrink: 0;
 }
 
 .row {
   display: flex;
   gap: 150px;
-	padding-left:500px;
+	padding-left:400px;
 }
 
 .sr-only {
