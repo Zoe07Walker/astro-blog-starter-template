@@ -149,13 +149,13 @@ hr {
 }
 
 .media img {
-  width: 100%;
+  width: 50%;
 	height: auto;
   flex-shrink: 0;
 }
 
 .media2 img {
-  width: 100%;
+  width: 50%;
 	height: auto;
 	padding-left:50px;
   flex-shrink: 0;
