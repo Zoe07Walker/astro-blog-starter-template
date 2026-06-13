@@ -24,8 +24,8 @@
 	font-display: swap;
 }
 @font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+	font-family: "Manrope";
+	src: url("/fonts/manrope-bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
