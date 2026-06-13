@@ -136,6 +136,22 @@ hr {
 	}
 }
 
+.media {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; /* or center if you want vertical centering */
+}
+
+.media img {
+  width: 200px;   /* control image size */
+  flex-shrink: 0; /* prevents image from squishing */
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
