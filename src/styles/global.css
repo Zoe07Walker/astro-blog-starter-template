@@ -167,6 +167,10 @@ hr {
 	padding-left:400px;
 }
 
+.row p {
+  text-align: center;
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
