@@ -3,7 +3,20 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
-
+<html>
+<head>
+    <style>
+        body {
+            background-color: 229, 224, 218;
+            margin: 0; /* Removes default whitespace borders */
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
 :root {
 	--accent: #2337ff;
 	--accent-dark: 15, 18, 25;
