@@ -11,7 +11,7 @@
 	--gray: 96, 115, 159;
 	--gray-light: 229, 224, 218;
 	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(234, 230, 225), 50%), #e5e0da;
+	--gray-gradient: rgba(var(--gray-light), 50%), #e5e0da;
 	--box-shadow:
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
