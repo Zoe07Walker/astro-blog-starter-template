@@ -139,12 +139,12 @@ hr {
 .media {
   display: flex;
   gap: 20px;
-  align-items: flex-start; /* or center if you want vertical centering */
+  align-items: left;
 }
 
 .media img {
-  width: 200px;   /* control image size */
-  flex-shrink: 0; /* prevents image from squishing */
+  width: 100%; 
+  flex-shrink: 0;
 }
 
 .row {
