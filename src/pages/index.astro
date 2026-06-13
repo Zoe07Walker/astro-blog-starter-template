@@ -18,7 +18,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<img src="/blog/content/was.png" alt="With a service that takes care of things for you, so you can focus on what matters." />
 			</p>
 <h3>About me!</h3>
-			<p {float:left}>
+			<p>
 				Hello! I’m Zoe, I started this business because I love to help people. From little things like grocery and food orders, to things like projects of all sorts. I want to do it all.
 
 My services and myself are here to fit your needs, I want to make your life easier, and I want you to be able to save your time, and gas for other more important things.
@@ -34,15 +34,25 @@ My services and myself are here to fit your needs, I want to make your life easi
 			</p>
 			<p>Here are a few ideas on how to get started with the template:</p>
 			
-			<div class="flex container">
-			<ul>
-				<img src="https://pbs.twimg.com/media/HKqTAt3XEAACcx2?format=jpg&name=tiny">
-			    <div class="text-content">
-			    	<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-			    	<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			    </div>
-			</div>
+			<div class="container">
+			    <div class="left">
+			        <ul>
+				<li>Edit this page in <code>src/pages/index.astro</code></li>
+				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
+				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
+				</ul>
+				</div>
+					</div>
+					<div class="container">
+			    <div class="right">
+			        <ul>
+				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
+				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+				</ul>
+				</div>
+					</div>
+			
+		
 			<p>
 				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
 					>read the docs
