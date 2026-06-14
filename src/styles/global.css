@@ -40,14 +40,14 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	font-size: clamp(16px, 1.2vw + 14px, 20px);
 	line-height: 1.7;
 }
 main {
-	width: 1000px;
+	width: min(100%, 1000px;)
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
+	padding: clamp(1rem, 3vw, 3rem);
 }
 h1,
 h2,
@@ -60,19 +60,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: clamp(2rem,5vw,3.5rem);
 }
 h2 {
-	font-size: 2.441em;
+	font-size: clamp(1.75rem,4vw,2.75rem);
 }
 h3 {
-	font-size: 1.953em;
+	font-size: clamp(1.5rem,3vw,2rem);
 }
 h4 {
-	font-size: 1.563em;
+	font-size: clamp(1.25rem,2vw,1.25rem);
 }
 h5 {
-	font-size: 1.25em;
+	font-size: clamp(1rem,1vw,.5rem);
 }
 strong,
 b {
@@ -137,18 +137,16 @@ hr {
 	}
 }
 
-.media {
+.media, .media2 {
   display: flex;
   gap: 20px;
-  align-items: left;
 }
-
-.media2 {
-  display: flex;
-  gap: 20px;
-  align-items: right;
+@media (max-width:768px) {
+	.media, .media2 {
+		flex-direction: column;
+		text-align: center;
+	}
 }
-
 .media img {
   max-width:100%;
   width: auto;
@@ -160,13 +158,14 @@ hr {
 	max-width:100%;
   width: auto;
 	height: auto;
-	padding-left:50px;
+	margin-left:auto
   flex-shrink: 0;
 }
 
 .row {
   display: flex;
-  gap: 50px;
+	flex-wrap: wrap;
+  gap: clamp(1rem,3vw,3rem);
 	
 }
 
