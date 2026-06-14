@@ -185,6 +185,14 @@ hr {
   max-width: 100%;
 }
 
+. header {
+	display:flex;
+}
+
+. header img {
+	height:50%;
+	width:auto;
+}
 .sr-only {
 	border: 0;
 	padding: 0;
