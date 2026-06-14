@@ -102,7 +102,7 @@ table {
 }
 img {
 	max-width: 100%
-	width: 100%;
+	width: auto;
 	height: auto;
 	border-radius: 8px;
 }
@@ -150,13 +150,15 @@ hr {
 }
 
 .media img {
-  width: 50%;
+  max-width:100%;
+  width: auto;
 	height: auto;
   flex-shrink: 0;
 }
 
 .media2 img {
-  width: 50%;
+	max-width:100%;
+  width: auto;
 	height: auto;
 	padding-left:50px;
   flex-shrink: 0;
