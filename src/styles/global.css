@@ -186,12 +186,9 @@ hr {
 }
 
 . header {
-	display:flex;
-}
-
-. header img {
 	height:50%;
 	width:auto;
+	display:flex;
 }
 .sr-only {
 	border: 0;
