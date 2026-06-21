@@ -137,9 +137,13 @@ hr {
 	}
 }
 
-.media, .media2 {
+.media {
   display: flex;
   gap: 20px;
+}
+.media2 {
+  display: flex;
+  gap: 100px;
 }
 @media (max-width:768px) {
 	.media, .media2 {
@@ -158,7 +162,7 @@ hr {
 	max-width:100%;
   width: auto;
 	height: auto;
-	margin-left:auto + 50px;
+	margin-left:auto;
   flex-shrink: 0;
 }
 
