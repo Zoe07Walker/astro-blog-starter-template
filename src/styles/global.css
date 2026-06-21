@@ -186,9 +186,14 @@ hr {
 }
 
 .header {
-	height:20%;
-	width:auto;
-	display:flex;
+	display: flex;
+	align-items: center;
+}
+
+.header img {
+	height: 60px;
+	width: auto;
+	display: block;
 }
 .sr-only {
 	border: 0;
