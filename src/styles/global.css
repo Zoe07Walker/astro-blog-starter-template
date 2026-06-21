@@ -158,7 +158,7 @@ hr {
 	max-width:100%;
   width: auto;
 	height: auto;
-	margin-left:auto;
+	margin-left:auto + 50px;
   flex-shrink: 0;
 }
 
