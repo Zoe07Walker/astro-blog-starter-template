@@ -191,8 +191,8 @@ hr {
 }
 
 .header img {
-	height: auto;
-	width: 30%;
+	height: 60px;
+	width: auto;
 	display: block;
 }
 .sr-only {
