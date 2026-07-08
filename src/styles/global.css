@@ -152,14 +152,14 @@ hr {
 	}
 }
 .media img {
-  max-width:100%;
+  max-width:40%;
   width: auto;
 	height: auto;
   flex-shrink: 0;
 }
 
 .media2 img {
-	max-width:100%;
+	max-width:40%;
   width: auto;
 	height: auto;
 	margin-left:auto;
