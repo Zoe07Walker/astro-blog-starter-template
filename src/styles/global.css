@@ -156,7 +156,7 @@ hr {
 	max-height:40%;
   width: auto;
 	height: auto;
-	aspect-ratio: 2 / 1;
+	aspect-ratio: 4 / 3;
   flex-shrink: 0;
 }
 
